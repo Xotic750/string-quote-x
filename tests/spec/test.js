@@ -60,7 +60,11 @@ describe('testSubject', function () {
   });
 
   it('arrays are converted to strings', function () {
-    var s = [1, 2, 3];
+    var s = [
+      1,
+      2,
+      3
+    ];
     var expected = '"1,2,3"';
     expect(quote(s)).toBe(expected);
   });
