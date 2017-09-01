@@ -23,17 +23,17 @@
 ## string-quote-x
 Wrap a string in double quotes.
 
-**Version**: 2.0.1  
+**Version**: 2.0.2  
 **Author**: Xotic750 <Xotic750@gmail.com>  
 **License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
 **Copyright**: Xotic750  
 <a name="exp_module_string-quote-x--module.exports"></a>
 
-### `module.exports` ⇒ <code>string</code> ⏏
+### `module.exports(string)` ⇒ <code>string</code> ⏏
 This method wraps a string in double quotes and replaces control characters
 with safe escape sequences.
 
-**Kind**: Exported member  
+**Kind**: Exported function  
 **Returns**: <code>string</code> - The wrapped string.  
 
 | Param | Type | Description |
