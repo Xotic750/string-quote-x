@@ -1,6 +1,6 @@
 /**
  * @file Wrap a string in double quotes.
- * @version 2.0.2
+ * @version 2.1.0
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
@@ -9,7 +9,7 @@
 
 'use strict';
 
-var safeToString = require('safe-to-string-x');
+var safeToString = require('to-string-symbols-supported-x');
 var stringify = require('json3').stringify;
 
 // If the string contains no control characters, no quote characters, and no
