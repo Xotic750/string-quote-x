@@ -7,10 +7,8 @@
  * @module string-quote-x
  */
 
-'use strict';
-
-var safeToString = require('to-string-symbols-supported-x');
-var stringify = require('json3').stringify;
+const safeToString = require('to-string-symbols-supported-x');
+const {stringify} = require('json3');
 
 // If the string contains no control characters, no quote characters, and no
 // backslash characters, then we can safely slap some quotes around it.
