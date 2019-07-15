@@ -21,28 +21,27 @@
 <a name="module_string-quote-x"></a>
 
 ## string-quote-x
+
 Wrap a string in double quotes.
 
-**Version**: 2.1.0  
-**Author**: Xotic750 <Xotic750@gmail.com>  
-**License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
-**Copyright**: Xotic750  
 <a name="exp_module_string-quote-x--module.exports"></a>
 
 ### `module.exports(string)` ⇒ <code>string</code> ⏏
+
 This method wraps a string in double quotes and replaces control characters
 with safe escape sequences.
 
 **Kind**: Exported function  
-**Returns**: <code>string</code> - The wrapped string.  
+**Returns**: <code>string</code> - The wrapped string.
 
-| Param | Type | Description |
-| --- | --- | --- |
+| Param  | Type                | Description                                 |
+| ------ | ------------------- | ------------------------------------------- |
 | string | <code>string</code> | The string to safely wrap in double quotes. |
 
-**Example**  
-```js
-var quote = require('string-quote-x');
+**Example**
 
-var s = quote('hello'); // '"hello"'
+```js
+import quote from 'string-quote-x';
+
+console.log(quote('hello')); // '"hello"'
 ```
