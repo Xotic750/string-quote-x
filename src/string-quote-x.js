@@ -13,6 +13,8 @@ import {stringify} from 'json3';
  * @param {string} string - The string to safely wrap in double quotes.
  * @returns {string} The wrapped string.
  */
-export default function quote(string) {
+const quote = function quote(string) {
   return stringify(safeToString(string));
-}
+};
+
+export default quote;

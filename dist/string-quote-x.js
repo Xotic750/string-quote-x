@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017",
-  "date": "2019-07-16T21:25:49.734Z",
+  "date": "2019-07-17T17:03:03.111Z",
   "describe": "",
   "description": "Wrap a string in double quotes.",
   "file": "string-quote-x.js",
-  "hash": "6371d5f3b58a51519ebb",
+  "hash": "51ac11ea6963b7a0c9a5",
   "license": "MIT",
-  "version": "3.0.3"
+  "version": "3.0.4"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -1261,7 +1261,7 @@ __webpack_require__.r(__webpack_exports__);
  * @param {...*} [args] - The arguments to invoke the function with.
  * @returns {object} Returns an object of the result.
  */
-function attempt(fn) {
+var attempt = function attempt(fn) {
   try {
     for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
       args[_key - 1] = arguments[_key];
@@ -1279,7 +1279,9 @@ function attempt(fn) {
       value: e
     };
   }
-}
+};
+
+/* harmony default export */ var attempt_x_esm = (attempt);
 
 
 // EXTERNAL MODULE: ./node_modules/is-symbol/index.js
@@ -1293,7 +1295,7 @@ function _newArrowCheck(innerThis, boundThis) { if (innerThis !== boundThis) { t
 
 
 
-var hasSymbolSupport = attempt(function () {
+var hasSymbolSupport = attempt_x_esm(function () {
   _newArrowCheck(this, _this);
 
   /* eslint-disable-next-line compat/compat */
@@ -1329,16 +1331,17 @@ var castString = ''.constructor;
  * @returns {string} The converted value.
  */
 
-function toStringSymbolsSupported(value) {
+var toStringSymbolsSupported = function toStringSymbolsSupported(value) {
   return isSymbolFn && isSymbolFn(value) ? pToString.call(value) : castString(value);
-}
+};
+
+/* harmony default export */ var to_string_symbols_supported_x_esm = (toStringSymbolsSupported);
 
 
 // EXTERNAL MODULE: ./node_modules/json3/lib/json3.js
 var json3 = __webpack_require__(2);
 
 // CONCATENATED MODULE: ./dist/string-quote-x.esm.js
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return quote; });
 
  // If the string contains no control characters, no quote characters, and no
 // backslash characters, then we can safely slap some quotes around it.
@@ -1353,9 +1356,11 @@ var json3 = __webpack_require__(2);
  * @returns {string} The wrapped string.
  */
 
-function quote(string) {
-  return Object(json3["stringify"])(toStringSymbolsSupported(string));
-}
+var string_quote_x_esm_quote = function quote(string) {
+  return Object(json3["stringify"])(to_string_symbols_supported_x_esm(string));
+};
+
+/* harmony default export */ var string_quote_x_esm = __webpack_exports__["default"] = (string_quote_x_esm_quote);
 
 
 

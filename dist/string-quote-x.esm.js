@@ -12,8 +12,10 @@ import { stringify } from 'json3'; // If the string contains no control characte
  * @returns {string} The wrapped string.
  */
 
-export default function quote(string) {
+var quote = function quote(string) {
   return stringify(safeToString(string));
-}
+};
+
+export default quote;
 
 //# sourceMappingURL=string-quote-x.esm.js.map
