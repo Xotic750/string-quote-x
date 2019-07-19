@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017",
-  "date": "2019-07-18T18:45:42.991Z",
+  "date": "2019-07-19T21:54:43.346Z",
   "describe": "",
   "description": "Wrap a string in double quotes.",
   "file": "string-quote-x.js",
   "hash": "51ac11ea6963b7a0c9a5",
   "license": "MIT",
-  "version": "3.0.7"
+  "version": "3.0.8"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
