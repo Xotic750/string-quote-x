@@ -1,6 +1,6 @@
 {
   "name": "string-quote-x",
-  "version": "3.0.11",
+  "version": "3.0.12",
   "description": "Wrap a string in double quotes.",
   "homepage": "https://github.com/Xotic750/string-quote-x",
   "author": {
@@ -23,6 +23,7 @@
   ],
   "module": "dist/string-quote-x.esm.js",
   "main": "dist/string-quote-x.js",
+  "jsdelivr": "dist/string-quote-x.min.js",
   "scripts": {
     "build:esm": "mkdirp dist && babel -s true --env-name esm src/string-quote-x.js -o dist/string-quote-x.esm.js",
     "build:base": "webpack --bail --progress --profile --colors",
@@ -51,7 +52,7 @@
   },
   "dependencies": {
     "json3": "^3.3.3",
-    "to-string-symbols-supported-x": "^2.0.15"
+    "to-string-symbols-supported-x": "^2.0.16"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
