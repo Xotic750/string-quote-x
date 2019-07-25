@@ -1,6 +1,6 @@
 {
   "name": "string-quote-x",
-  "version": "3.0.13",
+  "version": "3.0.14",
   "description": "Wrap a string in double quotes.",
   "homepage": "https://github.com/Xotic750/string-quote-x",
   "author": {
@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "json3": "^3.3.3",
-    "to-string-symbols-supported-x": "^2.0.17"
+    "to-string-symbols-supported-x": "^2.0.18"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
@@ -66,7 +66,7 @@
     "@babel/plugin-transform-runtime": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/runtime": "^7.5.5",
-    "@prorenata/eslint-config-vue": "^1.13.11",
+    "@prorenata/eslint-config-vue": "^1.13.12",
     "@types/jest": "^24.0.15",
     "@types/node": "^12.6.8",
     "babel-core": "^7.0.0-0",
