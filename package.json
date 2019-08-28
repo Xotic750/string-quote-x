@@ -1,6 +1,6 @@
 {
   "name": "string-quote-x",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "Wrap a string in double quotes.",
   "homepage": "https://github.com/Xotic750/string-quote-x",
   "author": {
@@ -53,7 +53,7 @@
   },
   "dependencies": {
     "json3": "^3.3.3",
-    "to-string-symbols-supported-x": "^2.1.1"
+    "to-string-symbols-supported-x": "^2.1.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
