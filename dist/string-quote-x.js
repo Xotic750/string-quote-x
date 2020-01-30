@@ -2,7 +2,7 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017",
-  "date": "2019-09-05T19:25:28.200Z",
+  "date": "2020-01-30T13:41:47.693Z",
   "describe": "",
   "description": "Wrap a string in double quotes.",
   "file": "string-quote-x.js",
